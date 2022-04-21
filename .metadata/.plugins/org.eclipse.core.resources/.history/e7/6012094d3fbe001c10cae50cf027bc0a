@@ -1,0 +1,16 @@
+import java.util.*;
+
+public class Ex0 {
+	public static void main(String[] args) {
+		
+		int answer = 0;
+		int input =0;
+		
+		answer = (int)(Math.random()*100)+1;
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("숫자를 1개 입력하시오.>");
+		input = scanner.nextInt();
+		
+	}
+}

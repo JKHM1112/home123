@@ -1,0 +1,18 @@
+import java.util.*;
+
+public class Ex0 {
+	public static void main(String[] args) {
+		
+		
+		
+		int sum = 0;
+		int num = 12345;
+		
+		
+		
+		System.out.println(12345%10);
+		
+		System.out.println();
+		
+	}
+}

@@ -1,0 +1,9 @@
+public class Ex0 {
+   public static void main(String[] args) throws IOException, InterruptedException {
+
+	int score = new int [5];
+	
+	   
+	   
+   }
+  }

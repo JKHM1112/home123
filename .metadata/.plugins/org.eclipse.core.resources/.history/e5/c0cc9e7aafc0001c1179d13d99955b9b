@@ -1,0 +1,12 @@
+public class Ex5_19 {
+	public static void main(String[] args) {
+		int[][] score = {						//[가로][세로]
+						{100,100,100},
+						{20,20,20},
+						{30,30,30},
+						{40,40,40},
+						{50,50,50}
+						};
+
+	}   //main
+}

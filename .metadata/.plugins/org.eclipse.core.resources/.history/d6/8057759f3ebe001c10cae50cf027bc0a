@@ -1,0 +1,22 @@
+import java.util.*;
+
+public class Ex0 {
+	public static void main(String[] args) {
+		
+		
+		
+		int sum = 0;
+		int num = 12345;
+		
+		for(num=12345; num>0; num=num/10) {
+			System.out.println(num);
+			sum+=num%10;
+			System.out.println(sum);
+		}
+			
+		System.out.println(12345%10);
+		
+		System.out.println(num);
+		
+	}
+}

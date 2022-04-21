@@ -1,0 +1,20 @@
+public class Ex5_10 {
+	public static void main(String[] args) {
+		int[] numArr = new int[10];
+		
+		for ( int i=0; i< numArr.length; i++) {
+			System.out.print(numArr[i] = (int)(Math.random()*10));
+		}
+		System.out.println();
+		
+		for (int i=0; i<numArr.length-1; i++) { //마지막은 할 필요 없어서 1을 뻇다.
+			boolean changed = false;
+			
+			for (int i=0; i<numArr.length-1-i; i++) {
+				
+			}
+		
+		
+		
+	}   //main
+}

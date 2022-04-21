@@ -1,0 +1,19 @@
+public class Ex5_11 {
+	public static void main(String[] args) {
+		int [] numArr = new int [10];
+		int [] counter = new int [10];
+		
+		for(int i =0; i<numArr.length ; i++) {     //numArr 10개의 배열에 10까지 무작위로 넣는다.
+			numArr[i] = (int)(Math.random()*10);
+			System.out.println(numArr[i]);      //numArr[i]로 하나씩 차례대로 작성된다.
+		}
+		System.out.println();
+		
+		for ( int i=0; i<numArr.length; i++);
+			counter[numArr[i]]++;      //0번부터 순서에 따라 counter[i]에 numArr[i]의 값이 저장된다.
+			
+			
+			
+			
+	}   //main
+}

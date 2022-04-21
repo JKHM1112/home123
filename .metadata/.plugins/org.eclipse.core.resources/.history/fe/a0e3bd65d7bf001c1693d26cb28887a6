@@ -1,0 +1,9 @@
+import java.util.*;   // Arrays.toString()을 사용하기 위해 추가
+public class Ex5_02 {
+
+	public static void main(String[] args) {
+
+		
+	}   //main
+
+}

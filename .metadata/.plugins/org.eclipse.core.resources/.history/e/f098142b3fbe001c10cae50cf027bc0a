@@ -1,0 +1,12 @@
+import java.util.*;
+
+public class Ex0 {
+	public static void main(String[] args) {
+		
+		int answer = 0;
+		
+		answer = (int)(Math.random()*100)+1;
+		Scanner
+		
+	}
+}

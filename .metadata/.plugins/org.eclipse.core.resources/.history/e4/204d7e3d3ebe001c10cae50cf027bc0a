@@ -1,0 +1,22 @@
+import java.util.*;
+
+public class Ex0 {
+	public static void main(String[] args) {
+		
+		
+		int i=0 , i1=0;
+		int sum =0 , sum1=0;
+		
+		
+		while(sum<100) {
+			sum+=++i;
+			
+			System.out.printf("%d ,%d%n" , i , sum);
+		}
+		while((sum1+=++i1)<100) {
+		
+			
+			System.out.printf("%d ,%d%n" , i1 , sum1);
+		}
+	}
+}

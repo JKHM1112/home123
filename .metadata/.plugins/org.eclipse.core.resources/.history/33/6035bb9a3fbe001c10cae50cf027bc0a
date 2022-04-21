@@ -1,0 +1,28 @@
+import java.util.*;
+
+public class Ex0 {
+	public static void main(String[] args) {
+		
+		int answer = 0;
+		int input =0;
+		
+		answer = (int)(Math.random()*100)+1;
+		Scanner scanner = new Scanner(System.in);
+		
+		
+		do {
+		System.out.println("숫자를 1개 입력하시오.>");
+		input = scanner.nextInt();
+		
+		if(input>answer) {
+			System.out.println("더 큰수를 작성했습니다.");
+		}else if(answer>input) {
+				System.out.println("더 작은 수를 입력했습니다.");
+		}
+		while(input!=anwer);
+		
+		System.out.println("정답입니다.");
+		
+		}
+	}
+}
