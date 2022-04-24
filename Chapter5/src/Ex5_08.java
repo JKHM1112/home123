@@ -1,5 +1,8 @@
 public class Ex5_08 {
 	public static void main(String[] args) {
+
+		// 섞기
+		
 		int [] ball = new int[45];
 		
 		for(int i=0; i<ball.length; i++)         

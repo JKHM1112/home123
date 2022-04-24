@@ -1,5 +1,8 @@
 public class Ex5_11 {
 	public static void main(String[] args) {
+
+		// 빈도수 구하기
+		
 		int[] numArr = new int [10];     //방 10개 생성
 		int[] counter = new int [10];	//방 10개 생성
 		

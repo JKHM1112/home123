@@ -1,5 +1,8 @@
 public class Ex5_05 {
 	public static void main(String[] args) {
+		
+		//배열의 총합
+
 		int sum =0;           
 		float average = 0f;
 		

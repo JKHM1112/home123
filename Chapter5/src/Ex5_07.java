@@ -1,5 +1,8 @@
 public class Ex5_07 {
 	public static void main(String[] args) {
+
+		//섞기
+		
 		int [] numArr = new int[10];
 		
 		for (int i=0; i< numArr.length; i++) {       //1~10의 수를 그대로 입력한다.

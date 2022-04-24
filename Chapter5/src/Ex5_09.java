@@ -2,6 +2,9 @@ import java.util.Arrays;
 
 public class Ex5_09 {
 	public static void main(String[] args) {
+
+		// 임의의 값으로 배열 채우기
+		
 		int[] code = { -4, -1, 3, 6, 11};   //code배열이 있다.
 		int[] arr = new int [10];        //arr에 빈 배열 10개를 만든다.
 		

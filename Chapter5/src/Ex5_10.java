@@ -1,5 +1,8 @@
 public class Ex5_10 {
 	public static void main(String[] args) {
+
+		// 정렬하기
+		
 		int[] numArr = new int[10];
 		
 		for ( int i=0; i< numArr.length; i++) {

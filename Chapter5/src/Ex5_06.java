@@ -1,5 +1,8 @@
 public class Ex5_06 {
 	public static void main(String[] args) {
+
+		//최대값과 최소값
+		
 		int [] score = {79, 88, 91, 33, 100, 55, 95};        //score의 배열을 만든다.
 		
 		int max = score[0];            //최대값의 초기값을 잡는다.
