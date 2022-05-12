@@ -6,8 +6,11 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="p3"/>
+		<item key="selection" value="fill"/>
 		<list key="findhistory">
+			<item value="fill"/>
+			<item value="collection"/>
+			<item value="sort"/>
 			<item value="es01"/>
 			<item value="ex01"/>
 			<item value="p3"/>

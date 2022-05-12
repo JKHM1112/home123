@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+#content {
+	width: 300px;
+	background-color: yellow;
+}
+
+ul li {
+	list-style: none;
+	border: 1px solid #ccc;
+	padding: 10px;
+	background-color: #efefef;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+ul li a {
+	color: #000;
+}
+/* 순서와 일치하는 태그 선택(순서에 다른 태그 포함)*/
+ul li:nth-child(2n+1) { /*색깔 홀수 번째 변경*/
+	background-color: #de9393;
+}
+
+ul li:first-child, ul li:last-child { /*처음과 끝 변경*/
+	background-color: yellow;
+}
+
+ul li:first-child { /*처음 줄 모퉁이 둥굴게 만들기*/
+	border-radius: 10px 10px 0 0;
+}
+
+ul li:last-child { /*마지막 줄 모퉁이 둥굴게 만들기*/
+	border-radius: 0 0 10px 10px;
+}
+</style>
+</head>
+<body>
+	<h1>구조선택자</h1>
+	<div id="content">
+		<ul>
+			<li><a href="#">menu1</a>
+			<li><a href="#">menu2</a>
+			<li><a href="#">menu3</a>
+			<li><a href="#">menu4</a>
+			<li><a href="#">menu5</a>
+			<li><a href="#">menu6</a>
+			<li><a href="#">menu7</a>
+			<li><a href="#">menu8</a>
+		</ul>
+	</div>
+</body>
+</html>
