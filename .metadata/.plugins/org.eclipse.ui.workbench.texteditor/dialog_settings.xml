@@ -6,9 +6,14 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
+<<<<<<< HEAD
 		<item key="selection" value="red"/>
 		<list key="findhistory">
 			<item value="red"/>
+=======
+		<item key="selection" value="fill"/>
+		<list key="findhistory">
+>>>>>>> b6497b66b368f5f7234a4571e74696a1d7e70ac2
 			<item value="fill"/>
 			<item value="collection"/>
 			<item value="sort"/>

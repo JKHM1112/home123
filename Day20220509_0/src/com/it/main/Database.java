@@ -88,13 +88,13 @@ public class Database {
 	         //1. 연걸
 	         getConnection();
 	         
-	         //2. sql문장 작성
+	         //2. sql문장 작성								아래에 content)한칸띄고"
 	         String sql = "insert into member(no, name, sex, content) "
 	               + "values(?,?,?,?)";
 	         //3. MySql로 SQL문장 전송
 	         pstmt = con.prepareStatement(sql);
 	         
-	         //4. ????에 값을 채운다.
+	         //4. ????에 값을 채운다.       //2에 해당되는 
 	         pstmt.setInt(1, no);
 	         pstmt.setString(2, name);
 	         pstmt.setString(3, sex);
@@ -170,16 +170,23 @@ public class Database {
    public static void main(String[] args) {
       Database db = new Database();
       db.getConnection();
+<<<<<<< HEAD
+=======
+      //db.mydbListData();
+      //System.out.println("--------------------------");
+>>>>>>> b6497b66b368f5f7234a4571e74696a1d7e70ac2
       //db.mydbInsert(15, "이한호", "남성", "가나다");
       //System.out.println("---------------");
-      db.mydbUpdate(17, "김연정", "여성", "배구선수");
-      db.mydbListData();
-      System.out.println("---------------------");
-      db.mydbDelete(12);				//ListData no12번 삭제하기
+      //db.mydbUpdate(17, "김연정", "여성", "배구선수");
+      //db.mydbListData();
+      //System.out.println("---------------------");
+      //db.mydbDelete(12);				//ListData no12번 삭제하기
+      //db.mydbListData();				//ListData를 불러오기
+      //System.out.println("------------------------");
+      //db.mydbOneSelect(15);				//ListData 임의 번호 불러오기
+      db.mydbInsert(16, "김원진","남성", "골드될예정");
       db.mydbListData();				//ListData를 불러오기
-      System.out.println("------------------------");
-      db.mydbOneSelect(15);
-      db.mydbOneSelect(16);
+      
    }
 
 }

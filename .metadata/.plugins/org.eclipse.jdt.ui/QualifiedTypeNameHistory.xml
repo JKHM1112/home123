@@ -49,7 +49,10 @@
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="AgeDesc"/>
+<<<<<<< HEAD
     <fullyQualifiedTypeName name="jdk.vm.ci.meta.JavaKind.FormatWithToString"/>
     <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
+=======
+>>>>>>> b6497b66b368f5f7234a4571e74696a1d7e70ac2
 </qualifiedTypeNameHistroy>

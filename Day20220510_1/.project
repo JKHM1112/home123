@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<<< HEAD:Day20220510_1/.project
 	<name>Day20220510_1</name>
+========
+	<name>Day20220509_1</name>
+>>>>>>>> b6497b66b368f5f7234a4571e74696a1d7e70ac2:Day20220509_1/.project
 	<comment></comment>
 	<projects>
 	</projects>
