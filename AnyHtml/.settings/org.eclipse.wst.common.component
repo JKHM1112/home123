@@ -1,31 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-<<<<<<< HEAD
-        
-    <wb-module deploy-name="AnyHtml">
-                
+    <wb-module deploy-name="Anyhtml">
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
-                
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
-                
-        <property name="java-output-path" value="/AnyHtml/build/classes"/>
-        <property name="context-root" value="/"/>
-            
+        <property name="context-root" value="Anyhtml"/>
+        <property name="java-output-path" value="/Anyhtml/build/classes"/>
     </wb-module>
-    
-=======
-<<<<<<<< HEAD:Day20220511_1/.settings/org.eclipse.wst.common.component
-    <wb-module deploy-name="Day20220511_1">
-        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
-        <property name="context-root" value="Day20220511_1"/>
-        <property name="java-output-path" value="/Day20220511_1/build/classes"/>
-========
-    <wb-module deploy-name="AnyHtml">
-        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
-        <property name="context-root" value="AnyHtml"/>
-        <property name="java-output-path" value="/AnyHtml/build/classes"/>
->>>>>>>> b6497b66b368f5f7234a4571e74696a1d7e70ac2:AnyHtml/.settings/org.eclipse.wst.common.component
-    </wb-module>
->>>>>>> b6497b66b368f5f7234a4571e74696a1d7e70ac2
 </project-modules>

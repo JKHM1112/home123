@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-<<<<<<<< HEAD:AnyHtml/.project
-	<name>AnyHtml</name>
-========
-	<name>Htmlserver</name>
->>>>>>>> b6497b66b368f5f7234a4571e74696a1d7e70ac2:Htmlserver/.project
+	<name>Anyhtml</name>
 	<comment></comment>
 	<projects>
 	</projects>
