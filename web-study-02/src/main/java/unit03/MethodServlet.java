@@ -14,7 +14,7 @@ public class MethodServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("doGet Method Call......");
 		String num = request.getParameter("id");
-		System.out.println(num);
+		System.out.println(num);	//null출력됨
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

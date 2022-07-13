@@ -1,38 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="test"/>
+		<item key="selection" value="book"/>
 		<item key="wrap" value="true"/>
-		<item key="casesensitive" value="false"/>
+		<item key="casesensitive" value="true"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="test"/>
-			<item value="Printer"/>
-			<item value="menu"/>
-			<item value="while"/>
-			<item value="record"/>
-			<item value="schoolRank"/>
-			<item value="kor"/>
-			<item value="displayRecord"/>
-			<item value="compareTo"/>
-			<item value="Average"/>
-			<item value="set"/>
-			<item value="Student"/>
-			<item value="ArrayList"/>
-			<item value="inputRecord"/>
-			<item value="s"/>
+			<item value="book"/>
+			<item value="select"/>
+			<item value="signup-btn-wrap"/>
+			<item value="cnum"/>
+			<item value="signup-country"/>
+			<item value="signup-input"/>
+			<item value="login-btn"/>
+			<item value="stay"/>
+			<item value="50"/>
+			<item value="height"/>
+			<item value="width"/>
+			<item value="form"/>
+			<item value="home.jsp"/>
+			<item value="signup-btn"/>
+			<item value="naver"/>
 		</list>
 		<list key="replacehistory">
 			<item value=""/>
+			<item value="printLogging"/>
+			<item value="String"/>
+			<item value="Sony"/>
+			<item value="SoniTV"/>
+			<item value="&quot;"/>
+			<item value="Board"/>
+			<item value="private"/>
+			<item value="mDao"/>
+			<item value="mVo"/>
+			<item value="MovieDAO"/>
+			<item value="MovieVO"/>
+			<item value="admin1"/>
+			<item value="phone1"/>
+			<item value="email1"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="1119"/>
-		<item key="DIALOG_Y_ORIGIN" value="147"/>
+		<item key="DIALOG_X_ORIGIN" value="-17"/>
+		<item key="DIALOG_Y_ORIGIN" value="193"/>
 		<item key="DIALOG_WIDTH" value="340"/>
-		<item key="DIALOG_HEIGHT" value="454"/>
+		<item key="DIALOG_HEIGHT" value="480"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">

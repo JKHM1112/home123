@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
-<body>	> <!-- MethodServlet.java랑 이름이 맞아야 한다. -->
+<body> <!-- MethodServlet.java랑 이름이 맞아야 한다. -->
 	<form action="MethodServlet" method="get">
 		<input type ="submit" value="get방식으로 호출하기">
 	</form>
