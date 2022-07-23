@@ -7,6 +7,17 @@
 <meta charset="UTF-8">
 <title>여행가기 좋은날 - 회원가입</title>
 <style type="text/css">
+* {
+	font-family: 'yg-jalnan', cursive
+}
+@font-face {
+	font-family: 'yg-jalnan';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff')
+		format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
 body {
 	background-color: #f5f6f7;
 }
@@ -45,7 +56,6 @@ h3 {
 	margin: 19px 0px 8px;
 	text-align: left;
 	font-size: 14px;
-	font-family: Dotum, '돋움', Helvetica, sans-serif;
 }
 
 .signup-input {
@@ -81,7 +91,6 @@ h3 {
 .signup-at {
 	color: rgb(150, 150, 150);
 	font-size: 15px;
-	font-family: Dotum, '돋움', Helvetica, sans-serif;
 	margin-top: 8px;
 }
 
@@ -125,7 +134,6 @@ h3 {
 	margin-top: 20px;
 	color: rgb(150, 150, 150);
 	font-size: 13px;
-	font-family: Dotum, '돋움', Helvetica, sans-serif;
 }
 /*회원가입버튼*/
 #signup-btn {
